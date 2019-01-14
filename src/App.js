@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
 import NavBar from "./components/navbar";
-import Jumbotron from "./components/jumbotron";
+import Header from "./components/header";
 import Images from "./components/images";
 
 function App() {
   return ( 
   <div>
     <NavBar />;
-    <Jumbotron />;
+    <Header />;
     <Images />;
   </div>);
 }
