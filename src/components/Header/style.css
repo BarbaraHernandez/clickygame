@@ -1,0 +1,15 @@
+header{
+    background-image: url("/images/panel.jpg");
+    background-color: #000000;
+    color: #cccccc;
+    height: 400px;
+}
+
+#header-div{
+    padding:25px;
+    background-color: #363a47;
+    opacity: 0.5;
+    position: relative;
+    top: 100px;
+}
+

@@ -1,15 +1,15 @@
 import React from "react";
 import "./App.css";
-import NavBar from "./components/navbar";
-import Header from "./components/header";
-import Images from "./components/images";
+import NavBar from "./components/Navbar";
+import Header from "./components/Header";
+import Images from "./components/Images";
 
 function App() {
   return ( 
   <div>
-    <NavBar />;
-    <Header />;
-    <Images />;
+    <NavBar />
+    <Header />
+    <Images />
   </div>);
 }
 
