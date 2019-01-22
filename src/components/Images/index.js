@@ -13,24 +13,40 @@ const img9 = <img src="./images/w9.png" alt=""></img>
 const img10 = <img src="./images/w10.png" alt=""></img>
 const img11 = <img src="./images/w11.png" alt=""></img>
 const img12 = <img src="./images/w12.png" alt=""></img>
-// const ImageArr = [];
 
-function Images() {
-  return (
-    <div className="container" id="image-div">
-      {img1}
-      {img2}
-      {img3}
-      {img4}
-      {img5}
-      {img6}
-      {img7}
-      {img8}
-      {img9}
-      {img10}
-      {img11}
+let ImageDisplay = [];
+
+
+// this function reorders objects
+
+
+
+export function Images() {
+
+  (function OrderImages(){
+
+    const MyImages = [
+      {img1},
+      {img2},
+      {img3},
+      {img4},
+      {img5},
+      {img6},
+      {img7},
+      {img8},
+      {img9},
+      {img10},
+      {img11},
       {img12}
-    </div>
+    ];
+  
+    for (var i = 12; i >= 0; i--) {
+      ImageDisplay.push(MyImages[Math.random() * i | 0]);
+    }
+  })();
+  
+  return (
+    <div className="container" id="image-div">{ImageDisplay[0]}</div>
   );
 }
 
