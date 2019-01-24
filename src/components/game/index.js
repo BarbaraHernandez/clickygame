@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./style.css";
 import NavBar from "../Navbar";
 import Header from "../Header";
 import Wire from "../Images";
@@ -93,7 +94,7 @@ class Game extends Component {
           instruction={this.state.instruction}
         />
         <Header />
-        <div>
+        <div className="images-div">
           {this.state.wires.map(wire => (
             <Wire
               id={wire.id}
