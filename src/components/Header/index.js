@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function Header() {
+function Header(props) {
   return (
     <header>
       <div className="container" id="header-div">

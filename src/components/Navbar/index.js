@@ -1,12 +1,12 @@
 import React from "react";
 import "./style.css";
 
-function NavBar() {
+function NavBar(props) {
   return (
     <nav className="navbar sticky-top navbar-dark bg-dark">
         <a className="navbar-brand" href="https://github.com/BarbaraHernandez/clickygame">Click Click Boom</a>
-        <p>Dynamic Game Text!</p>
-        <p>Dynamic: score | Text: !</p>
+        <p>{props.instruction}</p>
+        <p>Score: {props.gameScore} </p>
     </nav>
   );
 }
