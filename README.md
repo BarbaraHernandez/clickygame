@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Link:
 [Live Demo](https://barbarahernandez.github.io/clickygame/)
 
-##About my Code:
+## About my Code:
 
 This application uses react, yarn, and ES6.
 
