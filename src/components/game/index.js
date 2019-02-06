@@ -94,7 +94,7 @@ class Game extends Component {
           instruction={this.state.instruction}
         />
         <Header />
-        <div className="images-div">
+        <div className="images-div text-center">
           {this.state.wires.map(wire => (
             <Wire
               id={wire.id}
